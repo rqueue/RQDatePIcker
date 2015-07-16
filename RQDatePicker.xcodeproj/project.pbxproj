@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9493EDA91B57631D00C3DC0B /* RQDatePicker.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9493EDA81B57631D00C3DC0B /* RQDatePicker.h */; };
+		9493EDAB1B57631D00C3DC0B /* RQDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9493EDAA1B57631D00C3DC0B /* RQDatePicker.m */; };
+		9493EDB11B57631D00C3DC0B /* libRQDatePicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9493EDA51B57631D00C3DC0B /* libRQDatePicker.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9493EDB21B57631D00C3DC0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9493ED9D1B57631D00C3DC0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9493EDA41B57631D00C3DC0B;
+			remoteInfo = RQDatePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9493EDA31B57631D00C3DC0B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				9493EDA91B57631D00C3DC0B /* RQDatePicker.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9493EDA51B57631D00C3DC0B /* libRQDatePicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRQDatePicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9493EDA81B57631D00C3DC0B /* RQDatePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQDatePicker.h; sourceTree = "<group>"; };
+		9493EDAA1B57631D00C3DC0B /* RQDatePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQDatePicker.m; sourceTree = "<group>"; };
+		9493EDB01B57631D00C3DC0B /* RQDatePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RQDatePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9493EDB61B57631D00C3DC0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9493EDA21B57631D00C3DC0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9493EDAD1B57631D00C3DC0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9493EDB11B57631D00C3DC0B /* libRQDatePicker.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9493ED9C1B57631C00C3DC0B = {
+			isa = PBXGroup;
+			children = (
+				9493EDA71B57631D00C3DC0B /* RQDatePicker */,
+				9493EDB41B57631D00C3DC0B /* RQDatePickerTests */,
+				9493EDA61B57631D00C3DC0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9493EDA61B57631D00C3DC0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9493EDA51B57631D00C3DC0B /* libRQDatePicker.a */,
+				9493EDB01B57631D00C3DC0B /* RQDatePickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9493EDA71B57631D00C3DC0B /* RQDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				9493EDA81B57631D00C3DC0B /* RQDatePicker.h */,
+				9493EDAA1B57631D00C3DC0B /* RQDatePicker.m */,
+			);
+			path = RQDatePicker;
+			sourceTree = "<group>";
+		};
+		9493EDB41B57631D00C3DC0B /* RQDatePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9493EDB51B57631D00C3DC0B /* Supporting Files */,
+			);
+			path = RQDatePickerTests;
+			sourceTree = "<group>";
+		};
+		9493EDB51B57631D00C3DC0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9493EDB61B57631D00C3DC0B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9493EDA41B57631D00C3DC0B /* RQDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9493EDB91B57631D00C3DC0B /* Build configuration list for PBXNativeTarget "RQDatePicker" */;
+			buildPhases = (
+				9493EDA11B57631D00C3DC0B /* Sources */,
+				9493EDA21B57631D00C3DC0B /* Frameworks */,
+				9493EDA31B57631D00C3DC0B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RQDatePicker;
+			productName = RQDatePicker;
+			productReference = 9493EDA51B57631D00C3DC0B /* libRQDatePicker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9493EDAF1B57631D00C3DC0B /* RQDatePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9493EDBC1B57631D00C3DC0B /* Build configuration list for PBXNativeTarget "RQDatePickerTests" */;
+			buildPhases = (
+				9493EDAC1B57631D00C3DC0B /* Sources */,
+				9493EDAD1B57631D00C3DC0B /* Frameworks */,
+				9493EDAE1B57631D00C3DC0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9493EDB31B57631D00C3DC0B /* PBXTargetDependency */,
+			);
+			name = RQDatePickerTests;
+			productName = RQDatePickerTests;
+			productReference = 9493EDB01B57631D00C3DC0B /* RQDatePickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9493ED9D1B57631D00C3DC0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Ryan Quan";
+				TargetAttributes = {
+					9493EDA41B57631D00C3DC0B = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					9493EDAF1B57631D00C3DC0B = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 9493EDA01B57631D00C3DC0B /* Build configuration list for PBXProject "RQDatePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9493ED9C1B57631C00C3DC0B;
+			productRefGroup = 9493EDA61B57631D00C3DC0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9493EDA41B57631D00C3DC0B /* RQDatePicker */,
+				9493EDAF1B57631D00C3DC0B /* RQDatePickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9493EDAE1B57631D00C3DC0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9493EDA11B57631D00C3DC0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9493EDAB1B57631D00C3DC0B /* RQDatePicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9493EDAC1B57631D00C3DC0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9493EDB31B57631D00C3DC0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9493EDA41B57631D00C3DC0B /* RQDatePicker */;
+			targetProxy = 9493EDB21B57631D00C3DC0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9493EDB71B57631D00C3DC0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9493EDB81B57631D00C3DC0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9493EDBA1B57631D00C3DC0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9493EDBB1B57631D00C3DC0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9493EDBD1B57631D00C3DC0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RQDatePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9493EDBE1B57631D00C3DC0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RQDatePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9493EDA01B57631D00C3DC0B /* Build configuration list for PBXProject "RQDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9493EDB71B57631D00C3DC0B /* Debug */,
+				9493EDB81B57631D00C3DC0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9493EDB91B57631D00C3DC0B /* Build configuration list for PBXNativeTarget "RQDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9493EDBA1B57631D00C3DC0B /* Debug */,
+				9493EDBB1B57631D00C3DC0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9493EDBC1B57631D00C3DC0B /* Build configuration list for PBXNativeTarget "RQDatePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9493EDBD1B57631D00C3DC0B /* Debug */,
+				9493EDBE1B57631D00C3DC0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9493ED9D1B57631D00C3DC0B /* Project object */;
+}
