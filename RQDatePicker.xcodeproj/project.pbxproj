@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9493EDA91B57631D00C3DC0B /* RQDatePicker.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9493EDA81B57631D00C3DC0B /* RQDatePicker.h */; };
-		9493EDAB1B57631D00C3DC0B /* RQDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9493EDAA1B57631D00C3DC0B /* RQDatePicker.m */; };
 		9493EDB11B57631D00C3DC0B /* libRQDatePicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9493EDA51B57631D00C3DC0B /* libRQDatePicker.a */; };
+		9493EDF31B5763F500C3DC0B /* RQDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9493EDF21B5763F500C3DC0B /* RQDatePickerView.m */; };
+		9493EDF61B57643C00C3DC0B /* RQDatePickerTimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9493EDF51B57643C00C3DC0B /* RQDatePickerTimeView.m */; };
+		9493EDF91B57647700C3DC0B /* RQDatePickerTimePlusMinusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9493EDF81B57647700C3DC0B /* RQDatePickerTimePlusMinusView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +30,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				9493EDA91B57631D00C3DC0B /* RQDatePicker.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,10 +37,14 @@
 
 /* Begin PBXFileReference section */
 		9493EDA51B57631D00C3DC0B /* libRQDatePicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRQDatePicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9493EDA81B57631D00C3DC0B /* RQDatePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQDatePicker.h; sourceTree = "<group>"; };
-		9493EDAA1B57631D00C3DC0B /* RQDatePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQDatePicker.m; sourceTree = "<group>"; };
 		9493EDB01B57631D00C3DC0B /* RQDatePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RQDatePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9493EDB61B57631D00C3DC0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9493EDF11B5763F500C3DC0B /* RQDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQDatePickerView.h; sourceTree = "<group>"; };
+		9493EDF21B5763F500C3DC0B /* RQDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQDatePickerView.m; sourceTree = "<group>"; };
+		9493EDF41B57643C00C3DC0B /* RQDatePickerTimeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQDatePickerTimeView.h; sourceTree = "<group>"; };
+		9493EDF51B57643C00C3DC0B /* RQDatePickerTimeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQDatePickerTimeView.m; sourceTree = "<group>"; };
+		9493EDF71B57647700C3DC0B /* RQDatePickerTimePlusMinusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQDatePickerTimePlusMinusView.h; sourceTree = "<group>"; };
+		9493EDF81B57647700C3DC0B /* RQDatePickerTimePlusMinusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQDatePickerTimePlusMinusView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +87,9 @@
 		9493EDA71B57631D00C3DC0B /* RQDatePicker */ = {
 			isa = PBXGroup;
 			children = (
-				9493EDA81B57631D00C3DC0B /* RQDatePicker.h */,
-				9493EDAA1B57631D00C3DC0B /* RQDatePicker.m */,
+				9493EDFA1B5764B500C3DC0B /* Internal */,
+				9493EDF11B5763F500C3DC0B /* RQDatePickerView.h */,
+				9493EDF21B5763F500C3DC0B /* RQDatePickerView.m */,
 			);
 			path = RQDatePicker;
 			sourceTree = "<group>";
@@ -103,6 +108,17 @@
 				9493EDB61B57631D00C3DC0B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9493EDFA1B5764B500C3DC0B /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				9493EDF41B57643C00C3DC0B /* RQDatePickerTimeView.h */,
+				9493EDF51B57643C00C3DC0B /* RQDatePickerTimeView.m */,
+				9493EDF71B57647700C3DC0B /* RQDatePickerTimePlusMinusView.h */,
+				9493EDF81B57647700C3DC0B /* RQDatePickerTimePlusMinusView.m */,
+			);
+			name = Internal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +209,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9493EDAB1B57631D00C3DC0B /* RQDatePicker.m in Sources */,
+				9493EDF91B57647700C3DC0B /* RQDatePickerTimePlusMinusView.m in Sources */,
+				9493EDF31B5763F500C3DC0B /* RQDatePickerView.m in Sources */,
+				9493EDF61B57643C00C3DC0B /* RQDatePickerTimeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +380,7 @@
 				9493EDBB1B57631D00C3DC0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9493EDBC1B57631D00C3DC0B /* Build configuration list for PBXNativeTarget "RQDatePickerTests" */ = {
 			isa = XCConfigurationList;
@@ -370,6 +389,7 @@
 				9493EDBE1B57631D00C3DC0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
